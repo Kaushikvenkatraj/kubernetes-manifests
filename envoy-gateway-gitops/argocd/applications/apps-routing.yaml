@@ -7,7 +7,7 @@ spec:
   project: gateway-project
 
   source:
-    repoURL: https://github.com/YOUR-REPO/envoy-gateway-gitops
+    repoURL: https://github.com/Kaushikvenkatraj/kubernetes-manifests
     targetRevision: HEAD
     path: apps
 
