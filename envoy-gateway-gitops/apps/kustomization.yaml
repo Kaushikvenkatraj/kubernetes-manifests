@@ -1,3 +1,4 @@
+namespace: default
 resources:
   - hello-v1
   - hello-v2
