@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gateway-infra
+  namespace: argocd
+spec:
+  project: gateway-project
+
+  source:
+    repoURL: https://github.com/YOUR-REPO/envoy-gateway-gitops
+    targetRevision: HEAD
+    path: gateway
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
