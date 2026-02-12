@@ -1,4 +1,4 @@
 resources:
-  - apps-routing.yaml
-  - envoy-gateway.yaml
-  - gateway-infra.yaml
+  - argocd-apps-deployment.yaml
+  - argocd-envoy-gateway.yaml
+  - argocd-gateway-infra.yaml

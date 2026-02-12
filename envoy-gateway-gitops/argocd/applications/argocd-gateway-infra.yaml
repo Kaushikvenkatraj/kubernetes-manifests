@@ -4,7 +4,6 @@ metadata:
   name: gateway-infra
   namespace: argocd
 spec:
-  project: gateway-project
 
   source:
     repoURL: https://github.com/Kaushikvenkatraj/kubernetes-manifests

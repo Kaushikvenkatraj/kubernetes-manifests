@@ -1,0 +1,4 @@
+resources:
+  - gatewayclass.yaml
+  - gateway.yaml
+  - httproute-header-routing.yaml
