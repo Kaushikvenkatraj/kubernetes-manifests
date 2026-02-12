@@ -1,4 +1,4 @@
 resources:
-  - argocd-apps-deployment.yaml
+  # - argocd-apps-deployment.yaml
   - argocd-envoy-gateway.yaml
-  - argocd-gateway-infra.yaml
+  # - argocd-gateway-infra.yaml
