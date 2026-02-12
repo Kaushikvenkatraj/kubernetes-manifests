@@ -1,0 +1,4 @@
+resources:
+  - apps-routing.yaml
+  - envoy-gateway.yaml
+  - gateway-infra.yaml
