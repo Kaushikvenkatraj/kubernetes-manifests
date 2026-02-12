@@ -17,12 +17,13 @@ spec:
       backendRefs:
         - name: hello-v2
           port: 80
+          weight: 100
 
     # Public → Canary
     - backendRefs:
         - name: hello-v1
           port: 80
-          weight: 90
+          weight: 100
         - name: hello-v2
           port: 80
-          weight: 10
+          weight: 00
